@@ -1,4 +1,4 @@
-# MIND2 Benchmarking
+# MIND2 Probe Benchmarking
 
 This repository benchmarks __MIND2__ ("Monitoring IoT Networks with Digital Twins") using linear regressions. The benchmark involves four main performance indicators: throughput, latency, CPU, and RAM. The benchmark process and theory is grounded on the theory from [Sedlmeir et al. (2021)](https://aisel.aisnet.org/hicss-54/st/blockchain_engineering/4/). The overall objective is the identification of the sustainable throughput. 
 
