@@ -1,6 +1,10 @@
-# MIND2 Probe Benchmarking
+# Probe Benchmarking
+## MISSION - Process Aware Intrusion Detection in IoT Networks 
 
-This repository benchmarks __MIND2__ ("Monitoring IoT Networks with Digital Twins") using linear regressions. The benchmark involves four main performance indicators: throughput, latency, CPU, and RAM. The benchmark process and theory is grounded on the theory from [Sedlmeir et al. (2021)](https://aisel.aisnet.org/hicss-54/st/blockchain_engineering/4/). The overall objective is the identification of the sustainable throughput. 
+> Intrusion Detection Systems (IDS) allow for detecting malicious activities in organizational networks and hosts. As the Industrial Internet of Things (Industrial IoT) has gained momentum and attackers become process-aware, it elevates the focus on anomaly-based Network Intrusion Detection Systems (NIDS) in IoT. While previous research has primarily concentrated on fortifying SCADA systems with NIDS, keeping track of the latest advancements in resource-efficient messaging (e.g., MQTT, CoAP, and OPC-UA) is paramount. In our work, we straightforwardly derive IoT processes for NIDS using distributed tracing and process mining. We introduce a pioneering framework called MISSION which effectively captures, consolidates, and models MQTT flows, leading to a heightened process awareness in NIDS. Through our prototypical implementation, we demonstrate exceptional performance and high-quality models. Moreover, our experiments provide empirical evidence for rediscovering pre-defined processes and successfully detecting two distinct MQTT attacks in a simulated IoT network. 
+ 
+ 
+This repository benchmarks __MISSION__ using linear regressions. The benchmark involves four main performance indicators: throughput, latency, CPU, and RAM. The benchmark process and theory is grounded on the theory from [Sedlmeir et al. (2021)](https://aisel.aisnet.org/hicss-54/st/blockchain_engineering/4/). The overall objective is the identification of the sustainable throughput. 
 
 > *As long as the frequency of requests equals the frequency of responses, the throughput is sustainable.* 
 
